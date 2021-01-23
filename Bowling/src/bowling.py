@@ -49,11 +49,11 @@ class Game_Score:
                 else:
                     num_throw_frame += 1
                 num_throw += 1
-            if pins = "X":
+            if pins == "X":
                 final_points += Game_Score.special_sum(self.score_card[num_throw: num_throw + 3])
                 num_throw += 1
                 num_frame += 1
-            if pins = "/":
+            if pins == "/":
                 final_points += Game_Score.special_sum(self.score_card[num_throw: num_throw + 2])
                 num_throw += 1
                 num_throw_frame = 0
